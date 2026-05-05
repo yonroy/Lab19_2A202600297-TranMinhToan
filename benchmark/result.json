@@ -4,13 +4,13 @@
     "flat_rag": {
       "answer": "OpenAI được thành lập vào tháng 12 năm 2015.",
       "tokens_used": 3027,
-      "time_seconds": 3.259,
+      "time_seconds": 3.6755,
       "correctness": 1.0
     },
     "graph_rag": {
       "answer": "OpenAI được thành lập vào tháng 12 năm 2015.",
-      "tokens_used": 6637,
-      "time_seconds": 4.0031,
+      "tokens_used": 6191,
+      "time_seconds": 4.2615,
       "correctness": 1.0
     }
   },
@@ -19,13 +19,13 @@
     "flat_rag": {
       "answer": "CEO hiện tại của NVIDIA là Jensen Huang.",
       "tokens_used": 3532,
-      "time_seconds": 2.4711,
+      "time_seconds": 2.4753,
       "correctness": 1.0
     },
     "graph_rag": {
       "answer": "CEO hiện tại của NVIDIA là Jensen Huang.",
-      "tokens_used": 7463,
-      "time_seconds": 3.7161,
+      "tokens_used": 6929,
+      "time_seconds": 4.7542,
       "correctness": 1.0
     }
   },
@@ -34,28 +34,28 @@
     "flat_rag": {
       "answer": "Anthropic đặt trụ sở chính ở San Francisco, Mỹ.",
       "tokens_used": 3013,
-      "time_seconds": 2.481,
+      "time_seconds": 2.5444,
       "correctness": 1.0
     },
     "graph_rag": {
-      "answer": "Anthropic đặt trụ sở chính ở San Francisco, Hoa Kỳ.",
-      "tokens_used": 6708,
-      "time_seconds": 4.9996,
+      "answer": "Anthropic đặt trụ sở chính ở San Francisco, California, Hoa Kỳ.",
+      "tokens_used": 6404,
+      "time_seconds": 8.2434,
       "correctness": 1.0
     }
   },
   {
     "question": "Google DeepMind là kết quả sáp nhập của những đơn vị nào?",
     "flat_rag": {
-      "answer": "Google DeepMind là kết quả sáp nhập giữa DeepMind và bộ phận Google Brain của Google AI vào tháng 4 năm 2023.",
-      "tokens_used": 3782,
-      "time_seconds": 1.8582,
+      "answer": "Google DeepMind là kết quả sáp nhập của DeepMind và bộ phận Google Brain của Google AI.",
+      "tokens_used": 3774,
+      "time_seconds": 2.5199,
       "correctness": 1.0
     },
     "graph_rag": {
-      "answer": "Google DeepMind là kết quả sáp nhập của DeepMind và Google Brain, một đơn vị của Google AI, vào tháng 4 năm 2023.",
-      "tokens_used": 7484,
-      "time_seconds": 7.6865,
+      "answer": "Google DeepMind là kết quả sáp nhập của DeepMind và bộ phận Google Brain của Google AI vào tháng 4 năm 2023.",
+      "tokens_used": 6980,
+      "time_seconds": 6.0581,
       "correctness": 1.0
     }
   },
@@ -64,13 +64,13 @@
     "flat_rag": {
       "answer": "Công ty mẹ của AWS là Amazon.",
       "tokens_used": 3742,
-      "time_seconds": 10.8533,
+      "time_seconds": 2.5883,
       "correctness": 1.0
     },
     "graph_rag": {
       "answer": "Công ty mẹ của Amazon Web Services (AWS) là Amazon.",
-      "tokens_used": 7419,
-      "time_seconds": 10.0265,
+      "tokens_used": 7067,
+      "time_seconds": 5.0481,
       "correctness": 1.0
     }
   },
@@ -79,28 +79,28 @@
     "flat_rag": {
       "answer": "I don't have enough information.",
       "tokens_used": 3259,
-      "time_seconds": 2.2973,
+      "time_seconds": 1.9543,
       "correctness": 0.0
     },
     "graph_rag": {
-      "answer": "CEO của OpenAI, công ty đã phát triển GPT-4, là Sam Altman, và không có thông tin trong văn bản hoặc đồ thị kiến thức về trường đại học mà ông đã học. Tôi không có đủ thông tin.",
-      "tokens_used": 6963,
-      "time_seconds": 10.9323,
-      "correctness": 0.0
+      "answer": "CEO của OpenAI, công ty đã tạo ra GPT-4, là Sam Altman. Tuy nhiên, trong thông tin mà tôi có không đề cập đến trường đại học mà ông ấy đã học. Do đó, tôi không có đủ thông tin để trả lời câu hỏi này.",
+      "tokens_used": 6489,
+      "time_seconds": 7.5283,
+      "correctness": 0.5
     }
   },
   {
     "question": "Công ty mẹ của Google DeepMind đặt trụ sở ở thành phố nào?",
     "flat_rag": {
       "answer": "Công ty mẹ của Google DeepMind, Alphabet Inc., đặt trụ sở ở Mountain View, California.",
-      "tokens_used": 3592,
-      "time_seconds": 2.5639,
+      "tokens_used": 3591,
+      "time_seconds": 2.6177,
       "correctness": 1.0
     },
     "graph_rag": {
-      "answer": "Công ty mẹ của Google DeepMind, Alphabet Inc., đặt trụ sở tại Mountain View, California, Hoa Kỳ.",
-      "tokens_used": 7333,
-      "time_seconds": 4.1495,
+      "answer": "Công ty mẹ của Google DeepMind, Alphabet Inc., đặt trụ sở ở Mountain View, California.",
+      "tokens_used": 7043,
+      "time_seconds": 8.4043,
       "correctness": 1.0
     }
   },
@@ -109,28 +109,28 @@
     "flat_rag": {
       "answer": "I don't have enough information.",
       "tokens_used": 3067,
-      "time_seconds": 1.5353,
+      "time_seconds": 4.343,
       "correctness": 0.0
     },
     "graph_rag": {
-      "answer": "I don't have enough information.",
-      "tokens_used": 6830,
-      "time_seconds": 5.2524,
+      "answer": "Tôi không có đủ thông tin.",
+      "tokens_used": 6360,
+      "time_seconds": 9.4453,
       "correctness": 0.0
     }
   },
   {
     "question": "CEO của công ty sở hữu LinkedIn là ai?",
     "flat_rag": {
-      "answer": "I don't have enough information.",
-      "tokens_used": 3414,
-      "time_seconds": 1.9232,
+      "answer": "Tôi không có đủ thông tin.",
+      "tokens_used": 3416,
+      "time_seconds": 2.6626,
       "correctness": 0.0
     },
     "graph_rag": {
       "answer": "CEO của công ty sở hữu LinkedIn là Satya Nadella, người đứng đầu Microsoft.",
-      "tokens_used": 7112,
-      "time_seconds": 3.6942,
+      "tokens_used": 6779,
+      "time_seconds": 5.5395,
       "correctness": 1.0
     }
   },
@@ -139,58 +139,58 @@
     "flat_rag": {
       "answer": "Anthropic được thành lập bởi các cựu nhân sự từ OpenAI.",
       "tokens_used": 3286,
-      "time_seconds": 1.9959,
+      "time_seconds": 2.4317,
       "correctness": 1.0
     },
     "graph_rag": {
       "answer": "Anthropic được thành lập bởi các cựu nhân sự từ công ty OpenAI.",
-      "tokens_used": 7079,
-      "time_seconds": 4.557,
+      "tokens_used": 6661,
+      "time_seconds": 6.6187,
       "correctness": 1.0
     }
   },
   {
     "question": "So sánh OpenAI và Anthropic về tổng funding và đối tác chiến lược.",
     "flat_rag": {
-      "answer": "Anthropic has raised a total of $3.5 billion in a Series E funding round and $13 billion in a Series F funding round, with additional plans for future investments leading to a valuation of $380 billion by February 2026. Key strategic partners include Amazon, which invested $4 billion and signed a cloud partnership, and Google, which invested $2 billion and agreed to invest more over time.\n\nOpenAI, on the other hand, completed a $6.6 billion capital raise with a $157 billion valuation, followed by a funding round of $40 billion at a $300 billion post-money valuation. In February 2026, OpenAI raised $110 billion at a $730 billion valuation, with significant contributions from Amazon, SoftBank, and Nvidia. OpenAI's strategic partnerships include collaborations with Microsoft, Google, and numerous other tech companies.\n\nIn summary, while both companies have attracted significant investments and partnerships, OpenAI has raised more total funding and has a broader array of strategic partners.",
-      "tokens_used": 3409,
-      "time_seconds": 9.381,
-      "correctness": 0.5
+      "answer": "Anthropic and OpenAI both have significant funding and strategic partnerships.\n\n### Total Funding\n- **Anthropic**: \n  - As of February 2026, Anthropic's estimated total funding is approximately $30 billion raised in a Series G funding round, leading to a post-money valuation of $380 billion.\n  \n- **OpenAI**: \n  - In February 2026, OpenAI raised $110 billion, achieving a post-money valuation of $730 billion, with funding rounds extending to $122 billion by April 2026.\n\n### Strategic Partners\n- **Anthropic**: \n  - Major partners include:\n    - Amazon, which has invested a total of $6.25 billion (with $1.25 billion initially and additional investments planned).\n    - Google, which invested $500 million with a commitment of an additional $1.5 billion.\n  \n- **OpenAI**: \n  - Key partnerships include:\n    - Microsoft, which has invested $1 billion and is involved in numerous agreements for AI development.\n    - Other partners include Nvidia, Amazon, and Oracle, with various collaborations for AI infrastructure and cloud services.\n\nIn summary, OpenAI has a higher total funding and valuation than Anthropic, and both companies have established significant strategic partnerships with major tech corporations.",
+      "tokens_used": 3468,
+      "time_seconds": 8.3877,
+      "correctness": 1.0
     },
     "graph_rag": {
-      "answer": "Tính đến thông tin hiện có:\n\n### Tổng Funding:\n- **OpenAI**:\n  - Tổng funding tính đến 2026 là khoảng **$852 billion** (bao gồm các vòng gọi vốn lớn và các khoản đầu tư từ Amazon, Nvidia, SoftBank).\n  \n- **Anthropic**:\n  - Tổng funding tính đến 2026 là **$380 billion** (bao gồm các vòng gọi vốn lớn từ Amazon, Google, Lightspeed Venture Partners, và các nhà đầu tư khác).\n\n### Đối tác chiến lược:\n- **OpenAI**:\n  - Có các đối tác chiến lược như **Microsoft**, **Nvidia**, **Oracle**, **Disney**, và kế hoạch hợp tác với **Amazon**.\n\n- **Anthropic**:\n  - Có các đối tác chiến lược bao gồm **Amazon Web Services** (AWS) và **Google**, cùng với các thỏa thuận khác trong lĩnh vực điện toán đám mây và AI.\n\nNhìn chung, OpenAI có tổng funding cao hơn và có một mạng lưới đối tác chiến lược rộng rãi hơn so với Anthropic.",
-      "tokens_used": 7228,
-      "time_seconds": 9.1691,
-      "correctness": 0.0
+      "answer": "### Tổng Funding\n- **Anthropic**: \n  - Nhận được tổng cộng $3.5 tỷ trong vòng gọi vốn Series E vào tháng 3 năm 2025.\n  - Vòng gọi vốn Series F vào tháng 9 năm 2025 đạt $13 tỷ.\n  - Vòng gọi vốn G vào tháng 2 năm 2026 là $30 tỷ.\n  - Tổng giá trị sau Series G vào tháng 2 năm 2026 là $380 tỷ.\n\n- **OpenAI**: \n  - Hoàn thành vòng gọi vốn $6.6 tỷ vào tháng 10 năm 2024 với giá trị $157 tỷ.\n  - Vòng gọi vốn $40 tỷ vào tháng 4 năm 2025 với giá trị $300 tỷ.\n  - Vòng gọi vốn $110 tỷ vào tháng 2 năm 2026, hiện đã kéo dài lên đến $122 tỷ vào tháng 4 năm 2026 với giá trị $852 tỷ.\n\n### Đối tác chiến lược\n- **Anthropic**: \n  - Có quan hệ đối tác với Amazon Web Services (AWS), với tổng đầu tư lên tới $4 tỷ.\n  - Cũng đã thiết lập quan hệ hợp tác với Google, có đầu tư $500 triệu và cam kết thêm $1.5 tỷ trong tương lai.\n\n- **OpenAI**: \n  - Đối tác với Microsoft, Nvidia, và các công ty công nghệ khác như Apple và Oracle cho các dự án và đầu tư lớn.\n  - Amazon đã tiến hành thảo luận để đầu tư lên tới $50 tỷ.\n\n### Kết luận\nAnthropic và OpenAI đều có tổng funding ấn tượng, với OpenAI có vẻ vượt trội hơn về tổng giá trị sau các vòng gọi vốn gần đây. Tuy nhiên, Anthropic đã xây dựng những quan hệ đối tác mạnh mẽ với Amazon và Google để hỗ trợ cho sự phát triển và mở rộng các dịch vụ AI của mình.",
+      "tokens_used": 6983,
+      "time_seconds": 13.8361,
+      "correctness": 0.5
     }
   },
   {
     "question": "So sánh NVIDIA và Graphcore về định hướng sản phẩm phần cứng AI.",
     "flat_rag": {
-      "answer": "Graphcore và NVIDIA đều phát triển phần cứng AI nhưng có những định hướng sản phẩm khác nhau. \n\nGraphcore tập trung vào việc phát triển các bộ vi xử lý chuyên dụng cho AI gọi là Intelligence Processing Unit (IPU), với mục tiêu tối ưu hóa cho các tác vụ máy học. Sản phẩm chính của họ bao gồm Colossus GC2 và các thế hệ IPU mới hơn, có khả năng xử lý song song với kiến trúc độc đáo cho phép lưu trữ toàn bộ mô hình máy học trong bộ xử lý. Graphcore còn phát triển phần mềm hỗ trợ cho AI như Poplar Software Stack.\n\nNgược lại, NVIDIA nổi bật với các GPU, sử dụng trong deep learning và phân tích dữ liệu. NVIDIA đã phát triển dòng sản phẩm DGX cho siêu máy tính hay các giải pháp phần cứng cho ô tô tự lái thông qua dòng sản phẩm Drive. Họ cũng cung cấp nền tảng phần mềm CUDA cho lập trình viên, nhằm tận dụng hiệu suất cao từ các GPU của mình.\n\nTóm lại, Graphcore chú trọng vào các bộ vi xử lý chuyên dụng cho AI trong khi NVIDIA tập trung vào GPU đa năng với nhiều ứng dụng khác nhau trong AI và máy học.",
-      "tokens_used": 3663,
-      "time_seconds": 5.9502,
+      "answer": "NVIDIA và Graphcore đều tập trung vào phát triển phần cứng cho các ứng dụng AI, nhưng có những định hướng khác nhau trong sản phẩm.\n\n1. **NVIDIA**:\n   - Sản phẩm chủ lực của NVIDIA là GPU (Graphics Processing Units), với nền tảng CUDA cho phép xử lý song song hiệu quả trong các thuật toán machine learning. \n   - NVIDIA cũng phát triển các siêu máy tính như DGX, chuyên cho deep learning, và Drive, phục vụ cho các phương tiện tự lái.\n   - Công ty đang mở rộng sang các mô hình AI thế hệ mới, như Isaac GR00T N1 cho robot hình người và các chip AI tiên tiến cho trung tâm dữ liệu.\n\n2. **Graphcore**:\n   - Graphcore chuyên phát triển các bộ xử lý dành riêng cho AI, gọi là Intelligence Processing Units (IPU), được thiết kế để xử lý toàn bộ mô hình machine learning bên trong chip.\n   - Sản phẩm nổi bật của Graphcore là dòng IPU như Colossus GC2 và GC200, được tối ưu hóa cho dạng thức máy học phi đồ thị (graph-based).\n   - Công ty chú trọng vào công nghệ phần mềm đồng bộ hóa với phần cứng thông qua Poplar Software Stack, giúp tăng cường hiệu quả cho các mô hình AI lớn.\n\nTóm lại, NVIDIA thiên về GPU và các ứng dụng đa dạng cho AI, trong khi Graphcore tập trung vào hệ thống IPU dành riêng cho machine learning, với mục tiêu tối ưu hóa cho các mô hình phức tạp hơn.",
+      "tokens_used": 3733,
+      "time_seconds": 8.3466,
       "correctness": 1.0
     },
     "graph_rag": {
-      "answer": "NVIDIA và Graphcore đều chuyên phát triển các sản phẩm phần cứng cho AI, nhưng có sự khác biệt rõ rệt trong định hướng sản phẩm của mỗi công ty.\n\n1. **NVIDIA**:\n   - Tập trung vào GPU (Đơn vị xử lý đồ họa) cho deep learning và AI. Các sản phẩm chủ lực bao gồm dòng sản phẩm GeForce cho người tiêu dùng và dòng RTX dành cho chuyên viên. NVIDIA phát triển các phần mềm như CUDA để tối ưu hóa hiệu suất của GPU trong các tác vụ máy học.\n   - Công ty cũng phát triển các siêu máy tính như DGX và tổ chức các sự kiện như GPU Technology Conference để trình bày các ứng dụng của AI và deep learning.\n   - Họ đang mở rộng vào các lĩnh vực như ô tô tự lái, với các sản phẩm như NVIDIA Drive và các giải pháp AI cho chăm sóc sức khỏe.\n\n2. **Graphcore**:\n   - Chuyên phát triển các gia tốc viên cho AI và machine learning, cụ thể với sản phẩm chính là Intelligence Processing Unit (IPU). IPU của Graphcore được thiết kế để lưu trữ toàn bộ mô hình máy học bên trong vi xử lý, tối ưu hóa cho các tác vụ máy học phức tạp.\n   - Sản phẩm đầu tiên của họ là Colossus GC2, được phát hành vào năm 2018. Họ cũng đã cho ra mắt các phiên bản mới hơn như GC200, nhắm đến việc tối ưu hóa hiệu suất cho các ứng dụng AI lớn và phức tạp.\n   - Ngoài ra, Graphcore phát triển Poplar Software Stack, một công cụ phần mềm độc đáo cho machine intelligence.\n\nTóm lại, trong khi NVIDIA tập trung vào GPU và các giải pháp phần mềm mạnh mẽ cho AI, Graphcore lại chú trọng vào các gia tốc viên đặc thù dành cho AI với kiến trúc độc đáo của IPU và phần mềm đi kèm.",
-      "tokens_used": 7758,
-      "time_seconds": 12.2327,
-      "correctness": 0.5
+      "answer": "NVIDIA và Graphcore đều phát triển sản phẩm phần cứng cho AI, nhưng có sự khác biệt rõ rệt trong định hướng sản phẩm của họ.\n\n**NVIDIA:**\n- **Sản phẩm chủ lực:** NVIDIA tập trung vào phát triển GPU (đơn vị xử lý đồ họa) cho AI, đặc biệt là các dòng sản phẩm GeForce và Tesla, cùng với DGX - các siêu máy tính tích hợp để tăng cường khả năng học sâu.\n- **Công nghệ:** NVIDIA sử dụng nền tảng CUDA, cho phép lập trình viên khai thác sức mạnh của GPU để tối ưu hóa các thuật toán học máy. Họ cũng phát triển phần mềm như Clara cho y tế và Omniverse cho môi trường mô phỏng.\n- **Ứng dụng:** NVIDIA nhắm vào nhiều lĩnh vực như ô tô tự hành, chăm sóc sức khỏe, và siêu máy tính, và còn cung cấp các dịch vụ bằng cách đưa phần cứng vào đám mây thông qua các nền tảng như AWS và Microsoft Azure.\n\n**Graphcore:**\n- **Sản phẩm chủ lực:** Graphcore phát triển các bộ xử lý chuyên dụng gọi là IPU (Bộ xử lý trí tuệ) với khả năng xử lý song song lớn và tối ưu cho các mô hình Machine Learning.\n- **Công nghệ:** Sản phẩm nổi bật của họ là Poplar Software Stack, hỗ trợ cả việc lập trình và triển khai mô hình AI, và các thế hệ IPU mới như Bow IPU với thiết kế 3D cho hiệu suất cao hơn.\n- **Ứng dụng:** Graphcore tập trung vào phát triển AI với một mục tiêu hướng tới các mô hình lớn hơn và phức tạp hơn, như mô hình cho việc mô phỏng và nghiên cứu khoa học.\n\nTóm lại, trong khi NVIDIA nhấn mạnh vào GPU với khả năng toàn diện trong nhiều ứng dụng AI, Graphcore tập trung phát triển các bộ xử lý đặc thù cho machine learning nhằm tối ưu hóa hiệu suất cho các mô hình AI phức tạp.",
+      "tokens_used": 7248,
+      "time_seconds": 12.8089,
+      "correctness": 1.0
     }
   },
   {
     "question": "So sánh Midjourney và Stability AI về mô hình kinh doanh sản phẩm tạo ảnh.",
     "flat_rag": {
-      "answer": "Midjourney and Stability AI both operate in the generative AI space with a focus on creating images from textual input, but they have some differences in their business models and functionalities.\n\n1. **Products and Technology**:\n   - **Stability AI** is best known for its text-to-image model, **Stable Diffusion**, which allows users to generate images from text prompts. It also develops models for video, audio, 3D, and other applications.\n   - **Midjourney** generates images similarly through natural language prompts but is specifically recognized for its integration with Discord for user interaction, allowing users to generate and upscale images via bot commands.\n\n2. **User Interaction**:\n   - **Stability AI** primarily offers its capabilities through software products that can be built into other applications and services, emphasizing broader generative AI contributions.\n   - **Midjourney** offers a more community-driven approach, with its platform being accessible directly through Discord and a web interface where users can collaborate and showcase their generated images.\n\n3. **Founding and Key Leaders**:\n   - **Stability AI** was founded by Emad Mostaque and Cyrus Hodes in 2019, and it has gone through leadership changes, including the appointment of Prem Akkaraju as CEO in 2024.\n   - **Midjourney** was founded by David Holz, who previously co-founded Leap Motion, and the company launched in open beta in July 2022.\n\n4. **Legal Challenges and Controversies**:\n   - Both companies face legal challenges related to copyright issues. Stability AI has been involved in lawsuits with Getty Images regarding the training of its models using copyrighted material without consent. Midjourney also faces similar legal actions from artists who claim their works were used without authorization to train its AI.\n\n5. **Market Position**:\n   - Stability AI gained substantial visibility with the initial release of Stable Diffusion and a significant funding round, establishing a strong foothold in the generative AI market.\n   - Midjourney gained popularity and profitability quickly, especially in artistic communities, and has engaged with various industries for applications ranging from advertising to prototyping creative concepts.\n\nIn summary, while both companies focus on AI-driven image generation, their business models, user engagement strategies, and product offerings show distinct characteristics, with Stability AI leaning towards broader AI solutions and Midjourney fostering a more creative community interface.",
-      "tokens_used": 3782,
-      "time_seconds": 11.2298,
-      "correctness": 0.5
+      "answer": "I don't have enough information.",
+      "tokens_used": 3306,
+      "time_seconds": 2.5887,
+      "correctness": 0.0
     },
     "graph_rag": {
-      "answer": "Midjourney và Stability AI đều phát triển các mô hình tạo ảnh từ mô tả tự nhiên, nhưng có những điểm khác biệt trong mô hình kinh doanh và sản phẩm của họ.\n\n1. **Sản phẩm**:\n   - **Midjourney**: Sản phẩm chính của Midjourney là một dịch vụ tạo hình ảnh từ văn bản, hoạt động chủ yếu thông qua nền tảng Discord và gần đây là giao diện web. Midjourney phát triển các phiên bản mô hình khác nhau (như Midjourney v4, v5, v6) để cải thiện chất lượng và tính năng của hình ảnh tạo ra.\n   - **Stability AI**: Stability AI nổi bật với mô hình Stable Diffusion, cho phép người dùng tạo hình ảnh từ mô tả văn bản và họ cũng phát triển các sản phẩm khác như mô hình tạo âm thanh và mô hình 3D. Họ có các ứng dụng cho các lĩnh vực khác nhau, ví dụ như Stable Audio Open cho thiết bị di động.\n\n2. **Phương thức tiếp cận thị trường**:\n   - **Midjourney**: Bắt đầu với phiên bản beta mở và sử dụng miễn phí thông qua Discord, Midjourney đã nhanh chóng phát triển và có một cộng đồng người dùng đông đảo.\n   - **Stability AI**: Công ty này đã thu hút nhiều nguồn đầu tư lớn và hợp tác với các gã khổng lồ như Arm để tối ưu hóa các mô hình của họ cho các ứng dụng cụ thể. Họ cũng tham gia vào các vụ kiện liên quan đến bản quyền, cho thấy sự chú trọng vào việc sử dụng dữ liệu và nội dung một cách hợp pháp.\n\n3. **Thách thức pháp lý**:\n   - Cả hai công ty đều đã đối mặt với các vụ kiện liên quan đến bản quyền. Midjourney đã bị kiện bởi các nghệ sĩ vì vi phạm bản quyền khi sử dụng hình ảnh để đào tạo mô hình của họ, trong khi Stability AI cũng từng bị Getty Images kiện với cáo buộc sử dụng ảnh của họ mà không có sự cho phép để huấn luyện hệ thống của mình.\n\n4. **Vị trí lãnh đạo**:\n   - Midjourney do David Holz sáng lập và lãnh đạo, trong khi Stability AI được thành lập bởi Emad Mostaque và Cyrus Hodes. Gần đây, Stability AI đã trải qua sự thay đổi lãnh đạo với sự bổ nhiệm mới cho CEO.\n\nTóm lại, cả hai công ty đều khai thác công nghệ AI để tạo ra hình ảnh từ văn bản nhưng có các cách tiếp cận, sản phẩm và thách thức khác nhau trong thị trường.",
-      "tokens_used": 6086,
-      "time_seconds": 12.0634,
+      "answer": "Midjourney và Stability AI đều phát triển các sản phẩm tạo ảnh từ văn bản, nhưng có một số khác biệt trong mô hình kinh doanh và các sản phẩm cụ thể của họ.\n\n1. **Công nghệ và sản phẩm**:\n   - **Stability AI** phát triển mô hình **Stable Diffusion**, cho phép tạo ảnh từ mô tả văn bản. Công ty còn phát triển các mô hình khác như **Stable Audio Open**, phục vụ cho việc tạo âm thanh từ văn bản và tối ưu hóa trên các thiết bị di động.\n   - **Midjourney** cũng tạo ra hình ảnh từ mô tả văn bản; tuy nhiên, nó tập trung vào việc cung cấp công cụ cho người dùng qua nền tảng **Discord** và trang web của mình. Midjourney đã phát triển nhiều phiên bản của mô hình, bao gồm **Midjourney v4** và **Midjourney v5**.\n\n2. **Mô hình phân phối**:\n   - **Midjourney** hoạt động chủ yếu qua **Discord**, nơi người dùng có thể tương tác với bot để tạo ra hình ảnh. Điều này tạo ra một môi trường cộng đồng cho người dùng, với khả năng chia sẻ và thảo luận về hình ảnh được tạo ra.\n   - **Stability AI** cung cấp mã nguồn mở cho sản phẩm của mình, cho phép người dùng khác có thể sử dụng và tùy chỉnh mô hình, điều này làm cho sản phẩm của họ có tính linh hoạt và khả năng mở rộng cao.\n\n3. **Đầu tư và phát triển**:\n   - **Stability AI** đã nhận được sự đầu tư lớn từ các công ty như **Coatue Management** và **Lightspeed Venture Partners**, cho thấy sự hỗ trợ từ các nhà đầu tư trong ngành công nghệ.\n   - **Midjourney** cũng nhận được sự quan tâm từ cộng đồng và khẳng định là một công ty có lãi ngay cả trong giai đoạn đầu, với sự phát triển nhanh chóng và các tính năng mới.\n\n4. **Thách thức pháp lý**:\n   - Cả hai công ty đều đối mặt với các vụ kiện liên quan đến việc sử dụng hình ảnh không có sự đồng ý từ các nghệ sĩ, với **Stability AI** và **Midjourney** đều bị cáo buộc vi phạm bản quyền trong quá trình phát triển công nghệ của họ.\n\nTóm lại, cả Midjourney và Stability AI đều có những ưu điểm và thách thức riêng trong mô hình kinh doanh của họ trong lĩnh vực tạo ảnh AI.",
+      "tokens_used": 5722,
+      "time_seconds": 29.0675,
       "correctness": 0.5
     }
   },
@@ -199,13 +199,13 @@
     "flat_rag": {
       "answer": "I don't have enough information.",
       "tokens_used": 2486,
-      "time_seconds": 1.5386,
+      "time_seconds": 1.9126,
       "correctness": 0.0
     },
     "graph_rag": {
-      "answer": "Tôi không có đủ thông tin về Appen để thực hiện một sự so sánh với Scale AI trong chuỗi cung ứng dữ liệu huấn luyện.",
-      "tokens_used": 6242,
-      "time_seconds": 3.8378,
+      "answer": "I don't have enough information.",
+      "tokens_used": 5536,
+      "time_seconds": 5.8759,
       "correctness": 0.0
     }
   },
@@ -214,58 +214,58 @@
     "flat_rag": {
       "answer": "I don't have enough information.",
       "tokens_used": 2993,
-      "time_seconds": 3.5863,
+      "time_seconds": 2.6189,
       "correctness": 0.0
     },
     "graph_rag": {
-      "answer": "Microsoft đã tích cực tích hợp AI vào sản phẩm văn phòng của mình thông qua tính năng Copilot, cho phép người dùng tận dụng công nghệ AI để tăng cường khả năng làm việc. Ví dụ, công ty đã công bố công cụ Copilot Cowork vào tháng 3 năm 2026, dựa trên nhu cầu ngày càng tăng đối với các tác nhân tự động.\n\nNgược lại, Google cũng đã nhanh chóng tích hợp AI vào các sản phẩm của mình, đặc biệt là trong Google Search và thông qua việc phát triển các chatbot như Gemini, nhằm phản ứng với sự phổ biến của ChatGPT. Google đã tạo ra nhiều công cụ như AI Overviews cho tìm kiếm, và không ngừng phát triển các mô hình AI như LearnLM để phục vụ cho việc giáo dục và hỗ trợ người dùng.\n\nCả hai công ty đều cam kết đầu tư lớn vào cơ sở hạ tầng AI, với Microsoft dự kiến đầu tư khoảng 650 tỷ USD vào năm 2026 cùng với Google và các gã khổng lồ công nghệ khác. Tuy nhiên, Microsoft có xu hướng tích cực hơn trong việc bổ sung AI vào sản phẩm của mình dài hạn, trong khi Google đang trong quá trình cấp bách tích hợp AI vào các sản phẩm chính của mình do sự cạnh tranh trong ngành.",
-      "tokens_used": 7012,
-      "time_seconds": 15.4471,
-      "correctness": 0.5
+      "answer": "Microsoft và Google đều có những chiến lược tích cực trong việc tích hợp AI vào sản phẩm văn phòng của mình, nhưng chúng có một số khác biệt chính:\n\n1. **Microsoft**:\n   - Microsoft đã phát triển Copilot, một công cụ AI giúp tăng cường trải nghiệm người dùng trong các sản phẩm văn phòng như Word, Excel, và Teams. Microsoft đã đầu tư mạnh vào AI thông qua mối quan hệ đối tác với OpenAI và sử dụng các mô hình AI của OpenAI trong các dịch vụ của mình. Copilot Cowork, một công cụ mới ra mắt vào năm 2026, cũng khẳng định sự tập trung của Microsoft vào việc cung cấp các giải pháp văn phòng thông minh và tự động hóa.\n\n2. **Google**:\n   - Google cũng đã tích cực tích hợp AI vào sản phẩm văn phòng của mình. Công ty đã giới thiệu Gemini, một chatbot AI được xem là đối thủ đáng gờm của ChatGPT. Google tích hợp AI vào Google Workspace thông qua các tính năng như AI Overviews trong Google Search và các công cụ như NotebookLM để tổng hợp tài liệu. Google đã nhanh chóng điều chỉnh các sản phẩm của mình để hỗ trợ công nghệ AI, đặc biệt trong bối cảnh cạnh tranh với các sản phẩm của Microsoft.\n\nCả hai công ty đều đang nỗ lực đưa AI vào các sản phẩm văn phòng để nâng cao khả năng làm việc và trải nghiệm người dùng, nhưng cách tiếp cận và các công nghệ cụ thể mà họ áp dụng có sự khác biệt rõ ràng.",
+      "tokens_used": 6665,
+      "time_seconds": 18.6788,
+      "correctness": 1.0
     }
   },
   {
     "question": "Có bao nhiêu công ty AI trong tập dữ liệu đặt trụ sở tại San Francisco?",
     "flat_rag": {
-      "answer": "Có hai công ty AI trong tập dữ liệu đặt trụ sở tại San Francisco: Salesforce và OpenAI.",
-      "tokens_used": 3019,
-      "time_seconds": 2.0628,
+      "answer": "Tập dữ liệu cung cấp thông tin về hai công ty AI có trụ sở tại San Francisco: Salesforce và OpenAI.",
+      "tokens_used": 3023,
+      "time_seconds": 3.4732,
       "correctness": 0.0
     },
     "graph_rag": {
-      "answer": "Có hai công ty AI trong tập dữ liệu đặt trụ sở tại San Francisco: Salesforce và OpenAI.",
-      "tokens_used": 6743,
-      "time_seconds": 4.3615,
-      "correctness": 0.5
+      "answer": "Trong tập dữ liệu, có hai công ty AI đặt trụ sở tại San Francisco: Salesforce và OpenAI.",
+      "tokens_used": 6347,
+      "time_seconds": 7.5831,
+      "correctness": 0.0
     }
   },
   {
     "question": "Có bao nhiêu công ty trong tập dữ liệu hoạt động chính ở mảng an ninh mạng AI?",
     "flat_rag": {
-      "answer": "Trong tập dữ liệu, có hai công ty hoạt động chính ở mảng an ninh mạng AI là OpenAI và Nvidia. OpenAI đã ký hợp đồng với Anduril Industries để phát triển giải pháp AI tiên tiến cho các nhiệm vụ an ninh quốc gia, trong khi Nvidia đã hợp tác với Trend Micro để phát triển các công cụ an ninh AI nhằm bảo vệ các trung tâm dữ liệu nơi xử lý khối lượng công việc AI.",
-      "tokens_used": 3236,
-      "time_seconds": 3.6621,
-      "correctness": 0.5
+      "answer": "Tôi không có đủ thông tin.",
+      "tokens_used": 3152,
+      "time_seconds": 2.5597,
+      "correctness": 1.0
     },
     "graph_rag": {
-      "answer": "Tập dữ liệu chỉ đề cập đến một công ty duy nhất hoạt động chính trong mảng an ninh mạng AI, đó là Palo Alto Networks.",
-      "tokens_used": 7070,
-      "time_seconds": 7.0121,
-      "correctness": 0.5
+      "answer": "Trong tập dữ liệu, công ty duy nhất hoạt động chính ở mảng an ninh mạng AI là CrowdStrike. Tuy nhiên, không có thông tin cụ thể nào cho thấy có thêm công ty khác trong danh sách này liên quan đến an ninh mạng AI. Do đó, tôi có thể chỉ ra rằng chỉ có một công ty được nêu rõ.",
+      "tokens_used": 6621,
+      "time_seconds": 7.8734,
+      "correctness": 0.0
     }
   },
   {
     "question": "Có bao nhiêu công ty có trụ sở tại Trung Quốc trong tập dữ liệu?",
     "flat_rag": {
-      "answer": "Trong tập dữ liệu, có ba công ty có trụ sở tại Trung Quốc được đề cập: Tencent, Lenovo và Alibaba Group.",
-      "tokens_used": 2912,
-      "time_seconds": 1.7122,
-      "correctness": 0.5
+      "answer": "Trong tập dữ liệu có hai công ty có trụ sở tại Trung Quốc: Tencent và Lenovo.",
+      "tokens_used": 2905,
+      "time_seconds": 2.7639,
+      "correctness": 0.0
     },
     "graph_rag": {
-      "answer": "Dựa trên ngữ liệu đã cung cấp, có hai công ty có trụ sở tại Trung Quốc:\n\n1. Tencent\n2. Lenovo\n\nVậy tổng cộng có 2 công ty.",
-      "tokens_used": 6663,
-      "time_seconds": 4.2807,
+      "answer": "Có ba công ty có trụ sở tại Trung Quốc trong tập dữ liệu: Tencent, Lenovo và Alibaba Group.",
+      "tokens_used": 6275,
+      "time_seconds": 7.819,
       "correctness": 0.5
     }
   },
@@ -274,29 +274,29 @@
     "flat_rag": {
       "answer": "Có hai công ty trong tập dữ liệu tập trung vào speech hoặc voice AI: ElevenLabs và OpenAI.",
       "tokens_used": 3692,
-      "time_seconds": 4.8727,
-      "correctness": 0.5
+      "time_seconds": 2.6514,
+      "correctness": 0.0
     },
     "graph_rag": {
-      "answer": "Có hai công ty trong tập dữ liệu tập trung vào speech hoặc voice AI, đó là ElevenLabs và OpenAI.",
-      "tokens_used": 7393,
-      "time_seconds": 4.4121,
-      "correctness": 0.5
+      "answer": "Trong tập dữ liệu, có hai công ty tập trung vào speech hoặc voice AI là ElevenLabs và OpenAI.",
+      "tokens_used": 7059,
+      "time_seconds": 5.2845,
+      "correctness": 0.0
     }
   },
   {
     "question": "Có bao nhiêu công ty trong tập dữ liệu được thành lập sau năm 2015?",
     "flat_rag": {
-      "answer": "Có hai công ty trong tập dữ liệu được thành lập sau năm 2015: Dataiku (được thành lập vào năm 2013) và Salesforce (không rõ thời điểm thành lập từ ngữ liệu nhưng không phải sau năm 2015). Do đó, chỉ có Dataiku đáp ứng yêu cầu. I don't have enough information.",
-      "tokens_used": 3250,
-      "time_seconds": 2.6964,
+      "answer": "Theo dữ liệu, có hai công ty được thành lập sau năm 2015: Dataiku (thành lập năm 2013) và SmartRecruiters (mua lại bởi SAP vào năm 2025). Không có đủ thông tin để xác nhận năm thành lập của SmartRecruiters. Tuy nhiên, trong các công ty được liệt kê, chỉ có Dataiku rõ ràng được thành lập vào năm 2013. Vậy có thể nói rằng không có công ty rõ ràng nào trong dữ liệu được thành lập sau năm 2015.",
+      "tokens_used": 3293,
+      "time_seconds": 4.5062,
       "correctness": 0.0
     },
     "graph_rag": {
-      "answer": "Theo thông tin từ các đoạn văn bản, có một công ty duy nhất được thành lập sau năm 2015, đó là Dataiku, được thành lập vào năm 2013. Không có thông tin nào khác về sự thành lập của các công ty khác trong dữ liệu cung cấp. Do đó, tôi không có đủ thông tin để xác định số lượng công ty thành lập sau năm 2015.",
-      "tokens_used": 6973,
-      "time_seconds": 8.9007,
-      "correctness": 0.0
+      "answer": "Dựa trên thông tin cung cấp, công ty Dataiku được thành lập vào năm 2013, và không có thông tin nào về các công ty mới thành lập sau năm 2015 trong các đoạn văn hoặc đồ thị tri thức. Vì vậy, tôi không có đủ thông tin để trả lời câu hỏi này.",
+      "tokens_used": 6595,
+      "time_seconds": 10.0437,
+      "correctness": 1.0
     }
   }
 ]

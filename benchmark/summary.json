@@ -1,0 +1,63 @@
+{
+  "overall": {
+    "count": 20,
+    "flat_accuracy": 0.5,
+    "graph_accuracy": 0.65,
+    "flat_avg_time_s": 3.3811,
+    "graph_avg_time_s": 9.2386,
+    "flat_total_time_s": 67.6216,
+    "graph_total_time_s": 184.7723,
+    "flat_avg_tokens": 3287.9,
+    "graph_avg_tokens": 6597.7,
+    "flat_total_tokens": 65758,
+    "graph_total_tokens": 131954,
+    "flat_total_cost_usd": 0.014302,
+    "graph_total_cost_usd": 0.0287
+  },
+  "per_type": {
+    "aggregation": {
+      "count": 5,
+      "flat_accuracy": 0.2,
+      "graph_accuracy": 0.3,
+      "flat_avg_time_s": 3.1909,
+      "graph_avg_time_s": 7.7207,
+      "flat_avg_tokens": 3213.0,
+      "graph_avg_tokens": 6579.4,
+      "flat_cost_usd": 0.003494,
+      "graph_cost_usd": 0.007155
+    },
+    "comparison": {
+      "count": 5,
+      "flat_accuracy": 0.4,
+      "graph_accuracy": 0.6,
+      "flat_avg_time_s": 4.7709,
+      "graph_avg_time_s": 16.0534,
+      "flat_avg_tokens": 3197.2,
+      "graph_avg_tokens": 6430.8,
+      "flat_cost_usd": 0.003477,
+      "graph_cost_usd": 0.006993
+    },
+    "multi-hop": {
+      "count": 5,
+      "flat_accuracy": 0.4,
+      "graph_accuracy": 0.7,
+      "flat_avg_time_s": 2.8019,
+      "graph_avg_time_s": 7.5072,
+      "flat_avg_tokens": 3323.8,
+      "graph_avg_tokens": 6666.4,
+      "flat_cost_usd": 0.003615,
+      "graph_cost_usd": 0.00725
+    },
+    "single-hop": {
+      "count": 5,
+      "flat_accuracy": 1.0,
+      "graph_accuracy": 1.0,
+      "flat_avg_time_s": 2.7607,
+      "graph_avg_time_s": 5.6731,
+      "flat_avg_tokens": 3417.6,
+      "graph_avg_tokens": 6714.2,
+      "flat_cost_usd": 0.003717,
+      "graph_cost_usd": 0.007302
+    }
+  }
+}

@@ -19,6 +19,73 @@ If the answer is not in the provided context, say "I don't have enough informati
 Be concise and factual."""
 
 
+def _safe_text(value) -> str:
+    if value is None:
+        return ""
+    return str(value).strip()
+
+
+def _node_display_name(node: dict) -> str:
+    props = node.get("properties", {}) or {}
+    for key in ("name", "title", "company", "org_name"):
+        if props.get(key):
+            return _safe_text(props[key])
+    return _safe_text(node.get("id", "Unknown"))
+
+
+def _format_props(props: dict, skip: set[str] | None = None, limit: int = 6) -> str:
+    if not props:
+        return ""
+    skip = skip or set()
+    pairs = []
+    for key, value in props.items():
+        if key in skip:
+            continue
+        text = _safe_text(value)
+        if not text:
+            continue
+        pairs.append(f"{key}={text}")
+        if len(pairs) >= limit:
+            break
+    return "; ".join(pairs)
+
+
+def format_graph_context(nodes: list[dict], relationships: list[dict]) -> str:
+    """Format graph data into readable fact-style context for prompting."""
+    parts = []
+
+    if nodes:
+        parts.append("=== GRAPH NODE FACTS ===")
+        skip = {"embedding", "text", "chunk_id", "company_id", "chunk_index", "word_count"}
+        for node in nodes:
+            label = _safe_text(node.get("label", "Entity")) or "Entity"
+            name = _node_display_name(node)
+            details = _format_props(node.get("properties", {}), skip=skip)
+            if details:
+                parts.append(f"- [{label}] {name}: {details}.")
+            else:
+                parts.append(f"- [{label}] {name}.")
+
+    if relationships:
+        parts.append("=== GRAPH RELATION FACTS ===")
+        node_name_by_id = {node.get("id"): _node_display_name(node) for node in nodes}
+        for rel in relationships:
+            src_id = rel.get("from", "")
+            dst_id = rel.get("to", "")
+            src = node_name_by_id.get(src_id, _safe_text(src_id) or "Unknown")
+            dst = node_name_by_id.get(dst_id, _safe_text(dst_id) or "Unknown")
+            rel_type = _safe_text(rel.get("type", "RELATED_TO")).replace("_", " ").lower()
+            details = _format_props(rel.get("properties", {}), limit=4)
+
+            line = f"- {src} co quan he {rel_type} voi {dst}"
+            if details:
+                line += f" ({details})"
+            line += "."
+            parts.append(line)
+
+    return "\n".join(parts)
+
+
 def build_context(chunks: list[dict], nodes: list[dict], rels: list[dict]) -> str:
     parts = []
 
@@ -27,29 +94,14 @@ def build_context(chunks: list[dict], nodes: list[dict], rels: list[dict]) -> st
         for i, c in enumerate(chunks, 1):
             parts.append(f"[{i}] ({c['company']}, score={c['score']})\n{c['text']}")
 
-    _SKIP_PROPS = {"embedding", "text", "chunk_id", "company_id", "chunk_index", "word_count"}
-    if nodes:
-        parts.append("=== GRAPH NODES ===")
-        for n in nodes:
-            props = ", ".join(
-                f"{k}={v}" for k, v in n.get("properties", {}).items()
-                if v and k not in _SKIP_PROPS
-            )
-            parts.append(f"- [{n.get('label','?')}] {n['id']}  {props}")
-
-    if rels:
-        parts.append("=== GRAPH RELATIONSHIPS ===")
-        for r in rels:
-            props = ", ".join(f"{k}={v}" for k, v in r.get("properties", {}).items() if v)
-            line = f"- ({r['from']}) --[{r['type']}]--> ({r['to']})"
-            if props:
-                line += f"  {props}"
-            parts.append(line)
+    graph_context = format_graph_context(nodes, rels)
+    if graph_context:
+        parts.append(graph_context)
 
     return "\n\n".join(parts)
 
 
-def answer(query: str, top_k: int = 5) -> dict:
+def answer(query: str, top_k: int = 5, hop: int = 2) -> dict:
     """
     Trả về dict gồm:
       - query: câu hỏi gốc
@@ -57,7 +109,7 @@ def answer(query: str, top_k: int = 5) -> dict:
       - sources: chunks đã dùng
       - graph_stats: số nodes/rels dùng làm context
     """
-    subgraph = retrieve_subgraph(query, top_k_chunks=top_k)
+    subgraph = retrieve_subgraph(query, top_k_chunks=top_k, hop=hop)
     chunks   = subgraph["chunks"]
     nodes    = subgraph["nodes"]
     rels     = subgraph["relationships"]
