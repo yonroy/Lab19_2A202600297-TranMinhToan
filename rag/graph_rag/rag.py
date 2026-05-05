@@ -7,7 +7,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from graph_rag.retriever import retrieve_subgraph
-from shared.llm import call_llm
+from shared.llm import call_llm_with_usage
 
 SYSTEM_PROMPT = """You are a helpful AI assistant with knowledge about AI companies.
 You are given:
@@ -66,11 +66,15 @@ def answer(query: str, top_k: int = 5) -> dict:
     entity_nodes = [n for n in nodes if n.get("label") not in ("Chunk", "Company")][:40]
     context     = build_context(chunks, entity_nodes, rels[:80])
     user_prompt = f"Context:\n{context}\n\nQuestion: {query}"
-    response    = call_llm(SYSTEM_PROMPT, user_prompt)
+    llm_result  = call_llm_with_usage(SYSTEM_PROMPT, user_prompt)
 
     return {
         "query":   query,
-        "answer":  response,
+        "answer":  llm_result["answer"],
+        "tokens_used": llm_result["tokens_used"],
+        "prompt_tokens": llm_result["prompt_tokens"],
+        "completion_tokens": llm_result["completion_tokens"],
+        "model": llm_result["model"],
         "sources": [{"company": c["company"], "chunk_id": c["chunk_id"], "score": c["score"]} for c in chunks],
         "graph_stats": {"nodes": len(nodes), "relationships": len(rels)},
     }
@@ -81,6 +85,7 @@ if __name__ == "__main__":
     result = answer(q, top_k=5)
     print(f"\nQ: {result['query']}")
     print(f"\nA: {result['answer']}")
+    print(f"\nTokens: {result['tokens_used']}")
     print(f"\nGraph context: {result['graph_stats']['nodes']} nodes, {result['graph_stats']['relationships']} rels")
     print(f"\nSources:")
     for s in result["sources"]:

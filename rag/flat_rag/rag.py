@@ -1,76 +1,54 @@
+"""
+flat_rag/rag.py
+Flat RAG pipeline: query -> retrieve chunks -> generate answer.
+"""
 import sys
 from pathlib import Path
 
-from neo4j import GraphDatabase
-
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from flat_rag.retriever import retrieve as retrieve_chunks
-from config import NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD, NEO4J_DATABASE
+from shared.llm import call_llm_with_usage
+
+SYSTEM_PROMPT = """You are a helpful AI assistant with knowledge about AI companies.
+You are given relevant text chunks from Wikipedia-like articles.
+Use only the provided context to answer the question.
+If the answer is not in the context, say \"I don't have enough information.\"
+Be concise and factual."""
 
 
-def retrieve_subgraph(query: str, top_k_chunks: int = 5, hop: int = 2) -> dict:
-    chunks = retrieve_chunks(query, top_k=top_k_chunks)
-    company_ids = sorted({c["company_id"] for c in chunks if c.get("company_id")})
+def build_context(chunks: list[dict]) -> str:
+    parts = ["=== TEXT CHUNKS ==="]
+    for i, c in enumerate(chunks, 1):
+        parts.append(f"[{i}] ({c['company']}, score={c['score']})\\n{c['text']}")
+    return "\\n\\n".join(parts)
 
-    driver = GraphDatabase.driver(
-        NEO4J_URI,
-        auth=(NEO4J_USERNAME, NEO4J_PASSWORD)
-    )
 
-    cypher_nodes = f"""
-    UNWIND $company_ids AS cid
-    MATCH (c:Company {{id: cid}})
-    MATCH p = (c)-[*1..{hop}]-(n)
-    UNWIND nodes(p) AS x
-    RETURN DISTINCT labels(x) AS labels, properties(x) AS props
-    """
-
-    cypher_rels = f"""
-    UNWIND $company_ids AS cid
-    MATCH (c:Company {{id: cid}})
-    MATCH p = (c)-[*1..{hop}]-(n)
-    UNWIND relationships(p) AS r
-    RETURN DISTINCT
-      properties(r) AS props,
-      type(r) AS rel_type,
-      properties(startNode(r)) AS start_props,
-      properties(endNode(r)) AS end_props
-    """
-
-    with driver.session(database=NEO4J_DATABASE) as session:
-        raw_nodes = session.run(cypher_nodes, company_ids=company_ids).data()
-        raw_rels = session.run(cypher_rels, company_ids=company_ids).data()
-
-    driver.close()
-
-    nodes = []
-    for row in raw_nodes:
-        labels = row["labels"] or []
-        props = row["props"] or {}
-        nodes.append({
-            "id": props.get("id", props.get("chunk_id", "")),
-            "label": labels[0] if labels else "Entity",
-            "properties": props
-        })
-
-    relationships = []
-    for row in raw_rels:
-        sp = row["start_props"] or {}
-        ep = row["end_props"] or {}
-        relationships.append({
-            "from": sp.get("id", sp.get("chunk_id", "")),
-            "to": ep.get("id", ep.get("chunk_id", "")),
-            "type": row["rel_type"],
-            "properties": row["props"] or {}
-        })
+def answer(query: str, top_k: int = 5) -> dict:
+    chunks = retrieve_chunks(query, top_k=top_k)
+    context = build_context(chunks)
+    user_prompt = f"Context:\\n{context}\\n\\nQuestion: {query}"
+    llm_result = call_llm_with_usage(SYSTEM_PROMPT, user_prompt)
 
     return {
-        "chunks": chunks,
-        "nodes": nodes,
-        "relationships": relationships
+        "query": query,
+        "answer": llm_result["answer"],
+        "tokens_used": llm_result["tokens_used"],
+        "prompt_tokens": llm_result["prompt_tokens"],
+        "completion_tokens": llm_result["completion_tokens"],
+        "model": llm_result["model"],
+        "sources": [
+            {"company": c["company"], "chunk_id": c["chunk_id"], "score": c["score"]}
+            for c in chunks
+        ],
     }
 
 
 if __name__ == "__main__":
-    result = retrieve_subgraph("Who founded OpenAI?", top_k_chunks=3, hop=2)
-    print(len(result["chunks"]), len(result["nodes"]), len(result["relationships"]))
+    q = "OpenAI được thành lập năm nào?"
+    result = answer(q, top_k=5)
+    print(f"\\nQ: {result['query']}")
+    print(f"\\nA: {result['answer']}")
+    print(f"\\nTokens: {result['tokens_used']}")
+    print("\\nSources:")
+    for s in result["sources"]:
+        print(f"  - {s['company']} ({s['chunk_id']})  score={s['score']}")

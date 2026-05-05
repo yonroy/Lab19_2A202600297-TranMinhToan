@@ -1,0 +1,122 @@
+[ 
+	{
+		"id": 1,
+		"type": "single-hop",
+		"question": "OpenAI được thành lập năm nào?",
+		"reference_answer": "2015"
+	},
+	{
+		"id": 2,
+		"type": "single-hop",
+		"question": "CEO hiện tại của NVIDIA là ai?",
+		"reference_answer": "Jensen Huang"
+	},
+	{
+		"id": 3,
+		"type": "single-hop",
+		"question": "Anthropic đặt trụ sở chính ở đâu?",
+		"reference_answer": "San Francisco, California, Hoa Kỳ"
+	},
+	{
+		"id": 4,
+		"type": "single-hop",
+		"question": "Google DeepMind là kết quả sáp nhập của những đơn vị nào?",
+		"reference_answer": "Google Brain và DeepMind"
+	},
+	{
+		"id": 5,
+		"type": "single-hop",
+		"question": "Công ty mẹ của AWS là công ty nào?",
+		"reference_answer": "Amazon"
+	},
+	{
+		"id": 6,
+		"type": "multi-hop",
+		"question": "CEO của công ty đã tạo ra GPT-4 học ở trường đại học nào?",
+		"reference_answer": "Stanford University"
+	},
+	{
+		"id": 7,
+		"type": "multi-hop",
+		"question": "Công ty mẹ của Google DeepMind đặt trụ sở ở thành phố nào?",
+		"reference_answer": "Mountain View"
+	},
+	{
+		"id": 8,
+		"type": "multi-hop",
+		"question": "Người sáng lập Alibaba Group tốt nghiệp trường nào?",
+		"reference_answer": "Hangzhou Normal University"
+	},
+	{
+		"id": 9,
+		"type": "multi-hop",
+		"question": "CEO của công ty sở hữu LinkedIn là ai?",
+		"reference_answer": "Satya Nadella"
+	},
+	{
+		"id": 10,
+		"type": "multi-hop",
+		"question": "Anthropic được thành lập bởi các cựu nhân sự từ công ty nào?",
+		"reference_answer": "OpenAI"
+	},
+	{
+		"id": 11,
+		"type": "comparison",
+		"question": "So sánh OpenAI và Anthropic về tổng funding và đối tác chiến lược.",
+		"reference_answer": "Nêu được funding tương đối và các đối tác chính như Microsoft (OpenAI), Amazon/Google (Anthropic)."
+	},
+	{
+		"id": 12,
+		"type": "comparison",
+		"question": "So sánh NVIDIA và Graphcore về định hướng sản phẩm phần cứng AI.",
+		"reference_answer": "NVIDIA tập trung GPU hệ sinh thái rộng; Graphcore tập trung IPU cho workload AI chuyên biệt."
+	},
+	{
+		"id": 13,
+		"type": "comparison",
+		"question": "So sánh Midjourney và Stability AI về mô hình kinh doanh sản phẩm tạo ảnh.",
+		"reference_answer": "Midjourney thiên về dịch vụ đóng; Stability AI nổi bật với mô hình mở (Stable Diffusion)."
+	},
+	{
+		"id": 14,
+		"type": "comparison",
+		"question": "So sánh Scale AI và Appen về vai trò trong chuỗi cung ứng dữ liệu huấn luyện.",
+		"reference_answer": "Cả hai cung cấp dữ liệu/nhãn, Scale AI thiên về nền tảng enterprise hiện đại, Appen mạnh về crowdsourcing truyền thống."
+	},
+	{
+		"id": 15,
+		"type": "comparison",
+		"question": "So sánh Microsoft và Google về chiến lược tích hợp AI vào sản phẩm văn phòng.",
+		"reference_answer": "Microsoft tích hợp Copilot vào hệ sinh thái Microsoft 365; Google tích hợp Gemini vào Workspace."
+	},
+	{
+		"id": 16,
+		"type": "aggregation",
+		"question": "Có bao nhiêu công ty AI trong tập dữ liệu đặt trụ sở tại San Francisco?",
+		"reference_answer": "Cần truy vấn tổng hợp từ dữ liệu để lấy con số chính xác."
+	},
+	{
+		"id": 17,
+		"type": "aggregation",
+		"question": "Có bao nhiêu công ty trong tập dữ liệu hoạt động chính ở mảng an ninh mạng AI?",
+		"reference_answer": "Cần truy vấn tổng hợp từ dữ liệu để lấy con số chính xác."
+	},
+	{
+		"id": 18,
+		"type": "aggregation",
+		"question": "Có bao nhiêu công ty có trụ sở tại Trung Quốc trong tập dữ liệu?",
+		"reference_answer": "Cần truy vấn tổng hợp từ dữ liệu để lấy con số chính xác."
+	},
+	{
+		"id": 19,
+		"type": "aggregation",
+		"question": "Có bao nhiêu công ty trong tập dữ liệu tập trung vào speech hoặc voice AI?",
+		"reference_answer": "Cần truy vấn tổng hợp từ dữ liệu để lấy con số chính xác."
+	},
+	{
+		"id": 20,
+		"type": "aggregation",
+		"question": "Có bao nhiêu công ty trong tập dữ liệu được thành lập sau năm 2015?",
+		"reference_answer": "Cần truy vấn tổng hợp từ dữ liệu để lấy con số chính xác."
+	}
+]
