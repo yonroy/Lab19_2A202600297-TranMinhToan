@@ -1,0 +1,31 @@
+# Veritone
+
+Veritone, Inc. is an American artificial intelligence technology company based in Irvine, California founded in 2014.The company provides software services to the public and private sectors, including media, government, and law enforcement. 
+The company’s products and services are used by its wholly owned subsidiaries: advertising agency Veritone One and Veritone Digital, which provides content managemen and licensing services.The company's software, Aiware, is used by organizations including law enforcement, district attorney offices, media companies, and movie studios.
+In addition to the company's Costa Mesa office, they have offices in San Diego, California, Denver, Colorado, Binghamton, New York, New York City, Washington, D.C., and London, England. Ryan Steelberg is the company's president, chief executive officer and chairman of the board.
+
+History
+The company was founded in 2014 and went public via on May 12, 2017. Their losses were $59.6 million that year.
+In April 2020, the company received a $6.5 million in federally backed small business loans from Sunwest Bank as part of the Paycheck Protection Program. The company received scrutiny over this loan, which meant to protect small and private businesses. Washington Post noted the high compensation to the Steelberg brothers.
+In May 2020 Veritone announced it would return the full $6.5 million loan and issued a statement that it had "adequate financial flexibility and additional avenues to maintain our capital position."
+
+Criticism
+The American Civil Liberties Union has publicly criticized Veritone for their product Track, which analyzes video to identify and follow individuals based on a variety of visual characteristics.  By using a wider variety of characteristics, the product avoids regulation that bans automated biometric surveillance such as facial recognition.  It also offers to track vehicles by make, model, and characteristics to avoid automatic number-plate recognition restraints.  The Track product has been evaluated and used by law enforcement in the United States but the legality of this approach remains unsettled.
+
+Veritone AI uses
+Media and entertainment
+The products are used by iHeartMedia.
+The NotForgotten Digital Preservation Library uses Veritone software for video transcription and metadata creation.
+
+Government and public safety
+The company’s Veritone Redact software is used at police departments to redact personally identifiable or compromising information from video or photographic evidence. In May 2020, the U.S. Department of Justice contracted Veritone for audio and video transcription and translation services. Veritone Redact is also used by government compliance provider GovQA.
+
+Energy
+In October 2020, the company announced Veritone Energy, an AI tool to predict optimal energy supply mix and pricing to meet grid demand. On July 9, 2023, GridBeyond acquired Veritone’s Energy division.
+
+See also
+NotForgotten Digital Preservation Library
+
+References
+External links
+Official website

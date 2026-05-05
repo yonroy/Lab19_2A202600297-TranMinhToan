@@ -1,0 +1,24 @@
+# SentinelOne
+
+SentinelOne, Inc. is an American cybersecurity company listed on NYSE based in Mountain View, California. The company was founded in 2013 by Tomer Weingarten, Almog Cohen and Ehud ("Udi") Shamir. Weingarten acts as the company's CEO. The company has approximately 2,800 employees and offices in Mountain View, Boston, Prague, Tokyo, and Tel Aviv. The company uses machine learning for monitoring personal computers, IoT devices, and cloud workloads. The company's platform utilizes a heuristic model, specifically its patented behavioral AI. The company is AV-TEST certified.
+
+Funding
+In June 2019, SentinelOne received $120 million in a Series D funding round led by Insight Partners. The company received an additional $200 million in Series E funding in February 2020. The Series E round placed SentinelOne at a valuation of about $1.1 billion. In 2020, SentinelOne closed a round for $267 million in funding, bringing its total valuation to $3.1 billion.
+On June 30, 2021, SentinelOne completed an initial public offering on the NYSE, raising $1.2 billion. It trades under the symbol S, which was formerly used by telecommunications company Sprint prior to its 2020 merger with T-Mobile US.
+
+Acquisitions
+In February 2021, SentinelOne announced the acquisition of cloud-scale data analytics platform Scalyr for $155 million in cash and equity.
+In March 2022, SentinelOne announced the acquisition of the identity detection and response technology company, Attivo Networks, for $616.5 million in cash and equity.
+In early November 2023, SentinelOne acquired the boutique consultancy Krebs Stamos Group, founded by former CISA Director Chris Krebs and former Facebook Chief Security Officer Alex Stamos, which was rebranded and relaunched as PinnacleOne Strategic Advisory Group. In April 2025, Chris Krebs resigned from the company after being targeted by the Trump Administration in an executive order.
+In January 2024, SentinelOne agreed to acquire PingSafe, valuing the company at over $100 million.
+In August 2025, SentinelOne announced a definitive agreement to acquire Prompt Security, an Israeli startup focused on securing AI in runtime and preventing data leakage from generative AI tools, for an estimated $250 million in cash and stock. The acquisition extends SentinelOne's Singularity Platform to secure the rapidly growing use of generative and agentic AI in the workplace, providing real-time visibility into AI tool usage, automated enforcement to prevent prompt injection and sensitive data leakage, and protection against AI-specific threats. The deal closed in SentinelOne's third fiscal quarter of 2025.
+In September 2025, SentinelOne announced its intention to acquire Observo AI, an AI-native real-time data pipeline platform that specializes in streaming data for telemetry pipeline management. The transaction is expected to close in SentinelOne's third fiscal quarter of 2025 through a combination of cash and stock, subject to regulatory approvals and customary closing conditions. Observo AI's platform ingests, enriches, summarizes, and routes data across enterprises before it reaches a SIEM or data lake, with the capability to reduce data volume by up to 80% while maintaining access to complete logs when needed. The acquisition aims to accelerate SentinelOne's AI SIEM strategy and advance their vision of autonomous security operations centers (SOCs).
+
+Sponsorships
+Since 2021, SentinelOne has been the official cybersecurity sponsor of the Aston Martin Cognizant F1 Team.
+
+References
+External links
+ Media related to SentinelOne at Wikimedia Commons
+Official website
+Business data for SentinelOne, Inc.:

@@ -1,0 +1,42 @@
+# Numenta
+
+Jeffrey Hawkins is an American businessman, computer scientist, neuroscientist and engineer. He co-founded Palm Computing where he co-created the PalmPilot, the Palm Treo and Handspring.
+He subsequently turned to work on neuroscience, founding in 2002 the Redwood Neuroscience Institute. In 2005 he co-founded Numenta, where he leads a team in efforts to reverse-engineer the neocortex and enable machine intelligence technology based on brain theory.
+He is the co-author of On Intelligence (2004), which explains his memory-prediction framework theory of the brain, and the author of A Thousand Brains: A New Theory of Intelligence (2021).
+
+Education
+Hawkins attended Cornell University, where he received a Bachelor of Science with a major in electrical engineering in 1979.
+His interest in pattern recognition for speech and text input to computers led him to enroll in the biophysics program at the University of California, Berkeley in 1986. While there he patented a "pattern classifier" for handwritten text, but his PhD proposal on developing a theory of the neocortex was rejected.
+
+Career
+Hawkins joined GRiD Systems in 1982, where he developed rapid application development (RAD) software called GRiDtask. As vice president of research from 1988 to 1992, he developed their pen-based computing initiative that in 1989 spawned the GridPad, one of the first tablet computers.
+Hawkins founded Palm Inc., in January 1992. In 1998 he left the company along with Palm co-founders Donna Dubinsky and Ed Colligan to start Handspring.
+In March 2005, Hawkins, together with Dubinsky (Palm's original CEO) and Dileep George, founded Numenta, Inc.
+
+Neuroscience
+In 2002, after two decades of finding little interest from neuroscience institutions that he did not have a stake in, Hawkins founded the Redwood Neuroscience Institute in Menlo Park, California.
+In 2004, he co-authored On Intelligence with Sandra Blakeslee, laying out a theory on his "memory-prediction framework" of how the brain works.
+One of Hawkins' areas of interest is cortical columns.  In 2016, he hypothesized that cortical columns did not capture just a sensation, but also the relative location of that sensation, in three dimensions rather than two (situated capture), in relation to what was around it. Hawkins explains, "When the brain builds a model of the world, everything has a location relative to everything else".
+In 2021, he published A Thousand Brains: A New Theory of Intelligence, a framework for intelligence and cortical computation. The book details the advances he and the Numenta team made in the development of their theory of how the brain understands the world and what it means to be intelligent. It also details how the "thousand brains" theory can affect machine intelligence, and how an understanding of the brain impacts the threats and opportunities facing humanity. It also offers a theory of what's missing in current AI.
+
+Board and institute memberships
+In 2003, Hawkins was elected as a member of the National Academy of Engineering "for the creation of the hand-held computing paradigm and the creation of the first commercially successful example of a hand-held computing device." He also served on the advisory board of the Secular Coalition for America where he has advised on the acceptance and inclusion of nontheism in American life.
+
+Books
+Hawkins, Jeff; Blakeslee, Sandra (2004). On Intelligence: How a New Understanding of the Brain will Lead to the Creation of Truly Intelligent Machines. Times Books, Henry Holt and Co. ISBN 0-8050-7456-2.
+Hawkins, Jeff (2021). A Thousand Brains: A New Theory of Intelligence. Basic Books. ISBN 1-5416-7581-9.
+
+References
+Works cited
+Barnett, Shawn (n.d.). "Jeff Hawkins: The man who almost single-handedly revived the handheld computer industry". Pen Computing. No. 33. Pen Computing. Retrieved April 23, 2019.{{cite magazine}}:  CS1 maint: deprecated archival service (link)
+Chace, Calum (March 23, 2021). "A New Theory Of Intelligence: Review of 'A Thousand Brains' by Jeff Hawkins". Forbes. Retrieved September 4, 2022.
+Cooley, Brian (March 22, 2021). "A new way to move artificial intelligence forward". CNET. Retrieved March 22, 2021.
+Dubinsky, Donna (n.d.). "Personal Digital Assistants". Who Made America?. PBS.
+Markoff, John (March 24, 2005). "A New Company to Focus on Artificial Intelligence". The New York Times. Retrieved April 9, 2014.
+Metz, Cade (October 14, 2018a). "Jeff Hawkins Is Finally Ready to Explain His Brain Research". The New York Times. Retrieved September 4, 2022.
+Metz, Cade (October 14, 2018b). "A new view of how we think". The New York Times. pp. B1, B4.
+
+External links
+Numenta
+Redwood Center for Theoretical Neuroscience
+The Gartner Fellows: Jeff Hawkins Interview by Tom Austin, Gartner, March 2, 2006

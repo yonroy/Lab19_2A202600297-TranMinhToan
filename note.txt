@@ -1,0 +1,4 @@
+ Nodes        : 3873
+   Relationships: 3388
+   Chi phí ước tính: $0.2991 USD
+   Kết quả lưu tại: d:\AI engineer\Vinuni\Stage2\Day 4\Lab\Lab19_TranMinhToan_2A202600297\data\extracted_graph.json

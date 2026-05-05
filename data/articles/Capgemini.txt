@@ -1,0 +1,57 @@
+# Capgemini
+
+Capgemini SE is a French multinational information technology (IT) services and consulting company, headquartered in Paris, France.
+
+History
+In 1967, Serge Kampf founded the Société pour la Gestion de l'Entreprise et le Traitement de l'Information (Sogeti), as an enterprise management and data processing company.
+In 1974, Sogeti acquired Gemini Computer Systems, an American company based in New York City. In 1975, having acquired CAP (Centre d'Analyse et de Programmation) and Gemini Computer Systems, and having resolved a dispute with the similarly named CAP UK over the international use of the name 'CAP', Sogeti renamed itself as CAP Gemini Sogeti.
+Cap Gemini Sogeti launched US operations in 1981, following the acquisition of Milwaukee-based DASD Corporation, specializing in data conversion and employing 500 people in 20 branches throughout the US. Following this acquisition, the U.S. Operation was known as Cap Gemini DASD.
+In 1990 Cap Gemini Sogeti acquired the Hoskyns Group, a major IT outsourcing and managed services company in the UK.
+In 1996, the name was simplified to Cap Gemini, and the firm launched a new group logo. All operating companies worldwide were re-branded to operate as Cap Gemini.
+Cap Gemini acquired Ernst & Young Consulting in 2000 and integrated it with Gemini Consulting to form Cap Gemini Ernst & Young. In 2017, Cap Gemini S.A. became Capgemini SE, and its Euronext ticker name similarly changed from CAP GEMINI to CAPGEMINI.
+In 2006, Capgemini acquired Kanbay for $1.25 billion, which expanded its footprint and capabilities in India. 
+In 2015 it acquired the U.S.-based technology and services company iGate for $4 billion. In 2018, the company acquired the Philadelphia-based digital customer engagement company LiquidHub for US$500 million to assist Capgemini's digital and cloud growth in North America.
+In 2019, Capgemini acquired Altran, a provider of engineering and R&D services. It was the largest acquisition in the company's history, bringing Capgemini's total employee count to over 250,000. As part of the acquisition, Capgemini acquired frog design and Cambridge Consultants, which were integrated into Capgemini Invent; several other recent acquisitions, including staff from Fahrenheit 212, Idean, and June21, have been merged into that group and operate under the frog brand. In 2021, Capgemini grouped the engineering and R&D activities of the Altran brand with Capgemini Digital Engineering Services and formed a new division, Capgemini Engineering.
+In June 2021, Capgemini partnered with Sanofi, Orange and Generali to launch Future4care, a European start-up accelerator focused on digital healthcare. In 2021, Capgemini acquired RXP Services and Acclimation in Australia to expand its operations in Australia. Also in 2021, Capgemini acquired Australian company Empired and its New Zealand subsidiary Intergen.
+In January 2022, the company set up an international quantum computing lab, called Capgemini Quantum Lab or Capgemini Q-Lab, in collaboration with IBM. It can be used by Capgemini's clients to build in-house quantum computing applications and licensable technologies.
+In 2024, Capgemini acquired Syniti, an enterprise data management company specializing in data quality, data migration, and regulatory compliance.
+As of 2025, Capgemini has over 423,400 employees in approximately 50 countries.
+In July 2025, Capgemini acquired technology outsourcing firm WNS Global Services in a $3.3 billion cash deal. The acquisition allows Capgemini to expand its generative AI offerings, which it had announced in 2023.
+
+Subdivisions
+Sogeti
+Sogeti is a wholly owned subsidiary of Capgemini Group, spun off in 2002. It is an information technology consulting company specialising in technology and engineering professional services.
+
+Capgemini Research Institute
+Capgemini Research Institute is the company's in-house think tank, launched in 2012. It produces reports on current trends and concerns in business and technology, based on research, data, and surveys.
+
+Applied Innovation Exchange
+Applied Innovation Exchange (AIE) is Capgemini's network of innovation labs, and was launched in 2016. The labs enable clients to exchange with designers, industry experts, business and technology partners, research organizations, and startups, and Capgemini has AIEs worldwide.
+
+Capgemini Invent
+Capgemini Invent was launched in 2018 as the design and consulting subdivision of the Capgemini Group. It is the rebranding and enlargement of Capgemini Consulting. As of 2023, the subdivision had approximately 10,000 employees in 60 locations worldwide. These include staff from frog design, Fahrenheit 212, Idean, and June21.
+
+Capgemini Engineering
+In 2021, Capgemini grouped the engineering and R&D activities of its Altran brand with Capgemini Digital Engineering Services into Capgemini Engineering.
+
+Controversies
+Tax optimization
+Capgemini reportedly paid no corporate tax between 2011 and 2020 despite generating €329 million in revenue in France in 2022, according to a Senate report, which calls it "a caricatured example of tax optimization". The appendices to the Senate inquiry report note in particular that Capgemini secured some €7.6 million in various contracts from the French Ministry of Finance between 2018 and 2021. Furthermore, while Capgemini was supposed to be fined €17.3 million, it obtained a rebate reducing the bill to €3.9 million with the withdrawal of adjustments for the years between 2009 and 2014.
+
+Collaboration with ICE
+Capgemini is a long-standing partner of US Immigration and Customs Enforcement (ICE), with contracts, often worth tens of millions of dollars, dating back to at least 2007. The services range from IT support to "detention planning". The company advertised this partnership in the "customer stories" section of its website, boasting that "the Capgemini team works closely to help [ICE] minimize the time and cost required to deport all deportable illegal aliens from the United States".
+In November 2025, Capgemini responded to and accepted a new call for tenders to help ICE identify and locate foreigners. The French company was awarded the largest share of the contract, earning some $365 million, with revenue indexed to performance and financial bonuses based on the success rate in verifying the addresses of foreigners. Although the company initially chose to publicize this partnership on its website, all references to it were removed less than a week after journalistic publications on the topic.
+In February 2026, Capgemini announced plans to immediately sell its US subsidiary, Capgemini Government Solutions. This came after a public outcry concerning its contract to provide "skip tracing services for enforcement and removal operations" for ICE, which was questioned by finance minister Roland Lescure and condemned by opposition MP Hadrien Clouet. Capgemini determined that the legal restrictions imposed for contracting with federal government entities carrying out classified activities in the United States (including a Special Security Agreement) did not allow it to exercise appropriate control over the subsidiary's operations.
+
+Management
+The Capgemini Group Executive Committee consists of 34 members. 
+Aiman Ezzat has been the group's CEO since 2020, having been at the company for more than 20 years, including as COO from 2018 to 2020 and CFO from 2012 to 2018.
+Paul Hermelin is chairman of the company's board of directors. He was chairman and CEO from 2012 to 2020, having been appointed CEO in 2002 and having been at the company since 1993.
+Hermelin succeeded Serge Kampf, the founder and prior head of the company, who stepped down in 2012, thereafter serving as vice chairman of the board until his death in 2016.
+
+References
+External links
+
+Official website 
+
+Business data for Capgemini SE:

@@ -1,0 +1,14 @@
+# Speechify
+
+Speechify is a mobile, Chrome extension, and desktop app that reads text aloud using a computer-generated text-to-speech voice.
+The app also uses optical character recognition technology to turn physical books or printed text into audio which can be played in the user's voice or in that of a celebrity. The app lets users take photos of text and then listen to it read out loud. Additional Speechify features include a Voice AI Assistant with web search, AI podcast creation, and voice typing dictation.
+Speechify was founded by Cliff Weitzman, a dyslexic college student at Brown University who built the first version of the tool himself to help him keep up with his class readings. Research has indicated that dyslexic students who utilized Speechify had better reading comprehension outcomes than students who only used traditional means.
+
+See also
+15.ai
+ElevenLabs
+Respeecher
+
+References
+External links
+Official website

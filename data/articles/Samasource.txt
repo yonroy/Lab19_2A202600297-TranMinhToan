@@ -1,0 +1,30 @@
+# Samasource
+
+Samasource Impact Sourcing, Inc., also known as Sama, is a training-data company, focusing on annotating data for artificial intelligence algorithms. It is based in San Francisco, California, with worldwide operations, especially in Africa.
+The company has received attention for poor working conditions and privacy violations.
+
+History
+Entrepreneur Leila Janah founded Samasource in 2008. Janah coined the term "microwork", presented as a way to help impoverished workers across the globe by using the Internet for crowdsourcing.
+
+Business model
+Sama uses a secured cloud annotation platform to manage the annotation lifecycle. This includes image upload, annotation, data sampling and QA, data delivery, and overall collaboration. The company offers image, video, and sensor data annotation and validation for machine learning algorithms in industries including automotive, navigation, augmented reality, virtual reality, biotechnology, agriculture, manufacturing, and e-commerce.
+Sama's platform breaks down complex data projects from large companies into small tasks that can be completed by women and youth in developing countries with basic English skills after a few weeks of training.
+First founded as a non-profit in 2008, Sama adopted a hybrid business model in 2019, becoming a for-profit business with the previous non-profit organization becoming a shareholder.
+
+Controversy
+Content moderation and poor worker treatment
+It was revealed by a Time investigation that in order to build a safety system against toxic content (e.g. sexual abuse, violence, racism, sexism) in e.g. ChatGPT, OpenAI used Sama's services to outsource labeling toxic content to Kenyan workers earning less than $2 per hour. These labels were used to train a model to detect such content in the future. The outsourced laborers were exposed to toxic and dangerous content, and one described the experience as "torture". Following the Time investigation, Fairwork conducted a study of Sama. Benchmarking them against Fairwork principles, the company scored a 5/10.
+In 2023, Sama employees were involved in the formation of the African Content Moderators Union alongside employees from other African-based outsourcing companies.
+
+Labor Lawsuits
+In March 2022, the law firm Nzili and Sumbi Advocates published a letter on behalf of former Sama employee Daniel Motaung, threatening legal action against Sama if the company did not address twelve demands. Demands included that the company adhere to Kenyan labor, privacy, and health laws; that they provide adequate healthcare and insurance for their employees; and that they improve compensation. In 2019, Motaung was fired for organizing a strike and trying to unionize Sama employees over poor working conditions and pay. The threatened lawsuit followed a Time report detailing how Sama recruited content moderators under the false pretense that they would take jobs at call centers. According to the report, the moderators, who were recruited from all parts of the continent, only learned about the nature of their work after signing employment contracts and moving to the center in Nairobi. The moderators sift through social media posts on all platforms, including Facebook, to remove those that spread hate, misinformation and violence. On March 29, 2022, the law firm gave Meta and Sama 21 days to respond to the claims or face legal action.
+In a post published after the revelation, Sama denied any wrongdoing and said the company is transparent in its hiring practices and maintains a culture that "prioritizes the health and well-being of employees".
+In May 2022, Motaung officially filed a lawsuit against both Sama and Meta over these alleged unsafe and unfair working conditions. Motaung accused the subcontractor of various constitutional violations, including "widespread trauma, pay as low as $1.50 per hour, and alleged union busting."
+In 2023 Samasource faced lawsuits after former content moderators alleged exploitative conditions, including inadequate psychological support, low pay ($1.46-$3.74/hour), and severe mental health impacts from exposure to disturbing material.
+
+Meta AI glasses
+In 2026, after it was disclosed Sama employees were viewing private content filmed on Facebook's Ray-Ban Meta AI glasses, including video from using the bathroom and having sex. Facebook terminated the contract, then Sama laid off over 1000 employees in Kenya. Meta stated "Photos and videos are private to users. Humans review AI content to improve product performance, for which we get clear user consent. We’ve also decided to end our work with Sama because they don’t meet our standards."
+
+References
+Further reading
+Madhumita Murgia, "Your livelihood", chapter on Sama and its workers in Code Dependent: Living in the Shadow of AI (2024, Picador)

@@ -1,0 +1,15 @@
+# Blue Prism
+
+Blue Prism, officially Blue Prism Group plc, is a British multinational software corporation that makes enterprise robotic process automation (RPA) software, business process management (BPM) Software, and provides AI services. In March 2022, Blue Prism was acquired by SS&C Technologies. It is headquartered in Warrington, UK. The company was listed on the London Stock Exchange AIM market until its acquisition.
+
+History
+Blue Prism was founded in 2001 by Alastair Bathgate and David Moss. The company's focus was back office robotic process automation, or RPA. The company launched its first commercial product, Automate, in 2003. 
+On 18 March 2016, Blue Prism undertook an IPO when the company floated on the London Stock Exchange AIM market with a market capitalisation of £48.5 million. The company's shares rose 44 percent on the first day of trading on AIM, under CEO Alastair Bathgate. By November 2016, it had offices in Chicago and Miami, as well as the United Kingdom.
+On 6 January 2017 Blue Prism announced it would open new offices in Austin, Texas, while remaining based in London. At the time, it employed 86 people worldwide. In March 2017, a group of shareholders sold stakes in Blue Prism.
+In 2019, Blue Prism announced changes to its platform and the issuing of new stock. It included a new AI engine, an updated marketplace for extensions, and a new lab for in-house AI innovation. In the summer of 2019, Blue Prism acquired Thoughtonomy for $100 million.
+As of April 2020, the leadership team is made up of chairman and CEO Jason Kingdon and co-founder and CTO David Moss. Kingdon, an early investor in the company, became chairman in 2008 and led the company until its successful IPO in 2016. Kingdon returned as chairman in 2019 and became CEO in April 2020 when former CEO Alastair Bathgate stepped down, Kingdon remained CEO until March 2022, when SS&C Technologies completed its acquisition of Blue Prism.
+In September 2021, it was announced that Vista Equity Partners would acquire Blue Prism for £1.095 billion ($1.5 billion) with the intention to merge it into TIBCO Software. However, a bidding war between SS&C and Vista Equity ensued. Shareholders ultimately voted in favor of SS&C. On 16 March 2022 SS&C Technologies announced it had completed its acquisition of Blue Prism for approximately $1.6 billion (£1.25 billion).
+
+References
+External links
+Official website

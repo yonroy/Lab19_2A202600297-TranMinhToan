@@ -1,0 +1,26 @@
+# Environment
+.env
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Data (có thể nặng)
+# data/articles/
+# data/chunks.json
+# data/extractions.json
+# data/graph.json
+# data/corpus.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

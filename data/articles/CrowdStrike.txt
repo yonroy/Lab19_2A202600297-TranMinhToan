@@ -1,0 +1,67 @@
+# CrowdStrike
+
+CrowdStrike Holdings, Inc. is an American cybersecurity technology company based in Austin, Texas. It provides endpoint security, threat intelligence, and cyberattack response services. The company was co-founded in 2011 by George Kurtz, Dmitri Alperovitch, and Gregg Marston. Kurtz serves as the CEO. CrowdStrike went public on the Nasdaq in 2019 and joined the S&P 500 index in 2024. 
+Crowdstrike investigated several high-profile cyberattacks, often linking them to state-sponsored actors. On July 19, 2024, it issued a faulty update to its security software that caused global computer outages that disrupted air travel, banking, broadcasting, and other services, particularly at Delta Air Lines. CrowdStrike issued public apologies and announced changes intended to prevent similar incidents. Delta Air Lines and CrowdStrike subsequently filed competing lawsuits against each other over the outage.
+
+History
+CrowdStrike was co-founded in 2011 by George Kurtz (CEO), Dmitri Alperovitch (former CTO), and Gregg Marston (CFO, retired). The following year, the company hired Shawn Henry, a former Federal Bureau of Investigation (FBI) official, to lead the subsidiary CrowdStrike Services, Inc., which offered security and response services. The company launched CrowdStrike Falcon, an antivirus package, as its first product in June 2013.
+In May 2014, CrowdStrike's reports helped the United States Department of Justice charge five Chinese military hackers with economic cyber espionage against U.S. corporations. CrowdStrike also uncovered the activities of Energetic Bear, a group connected to Russia's Federal Security Service which conducted intelligence operations against global targets, primarily in the energy sector.
+Following the 2014 cyberattack on Sony Pictures, CrowdStrike identified evidence suggesting North Korean government involvement and provided analysis on the methods used in the attack. CrowdStrike also helped identify members of Putter Panda, the state-sponsored Chinese group of hackers also known as PLA Unit 61486.
+In May 2015, the company reported a serious security problem called VENOM. It was found in QEMU, a program used to run virtual computers, and could let hackers steal private information. In October 2015, the company announced that it had identified Chinese hackers attacking technology and pharmaceutical companies around the time that U.S. President Barack Obama and China's leader Xi Jinping publicly agreed not to conduct economic espionage against each other. The alleged hacking would have been in violation of that agreement.
+In July 2015, Google invested in the company's Series C funding round.
+In 2017, Crowdstrike reached a valuation of more than $1 billion with an estimated annual revenue of $100 million. In June 2018, the company said it was valued at more than $3 billion. Investors at the time included Telstra, March Capital Partners, Rackspace, Accel Partners and Warburg Pincus.
+In June 2019, the company made an initial public offering on the Nasdaq.
+In 2020, CrowdStrike launched a tool called Falcon Identity Threat Protection to help protect user identities. In 2022, it became a managed service, meaning CrowdStrike started running it for customers. That same year, they added a cloud-based threat hunting feature to look for signs of attacks.
+In December 2021, the company moved its headquarters location from Sunnyvale, California, to Austin, Texas.
+In 2023, CrowdStrike introduced CrowdStream service in collaboration with Cribl.io. Charlotte AI, CrowdStrike's generative AI security analyst, was launched in May 2023 as part of Falcon's AI-driven security updates, enhancing automated threat triaging and response.
+In September 2023, CrowdStrike launched Falcon Foundry, a no-code application development platform directed at a wider audience, and in September 2024, the company launched CrowdStrike Financial Services, which offers payment solutions and financing to improve access to the Falcon platform.
+The company joined the S&P 500 index in June 2024.
+
+Acquisitions
+Crowdstrike has a history of acquisitions, including: 
+
+November 2017: Payload Security (develops automated malware analysis sandbox technology)
+September 2020: Preempt Security (zero trust and conditional access technology provider): $96 million
+February 2021: Humio (Danish log management platform): $400 million.
+November 2021: SecureCircle (SaaS-based cybersecurity service)
+October 2022: Reposify (an external attack surface management vendor for risk management)
+September 2023: Bionic.ai (Israeli cybersecurity startup)
+November 2024: Flow Security ($200 million) and Adaptive Shield ($300 million) (Israeli cloud security startups)
+August 2025: Onum (Spanish company focused on managing real-time telemetry pipelines)
+January 2026: SGNL (California-based identity security firm): $750 million
+January 2026: Seraphic Security (Israel-based cybersecurity firm specializing in browser runtime security): $420 million.
+
+Earnings
+In 2024, total revenue was $3.06 billion, a 36% increase.
+
+Russian hacking investigations
+CrowdStrike helped investigate the Democratic National Committee cyberattacks and a connection to Russian intelligence services. On 20 March 2017, then-FBI director James Comey testified before congress stating:"CrowdStrike, Mandiant, and ThreatConnect review[ed] the evidence of the hack and conclude[d] with high certainty that it was the work of APT 28 and APT 29 who are known to be Russian intelligence services."Comey previously testified in January 2017 that a request for FBI forensics investigators to access the DNC servers was denied, saying Crowdstrike agreed to share information.
+In December 2016, CrowdStrike released a report stating that Russian government-affiliated group Fancy Bear had hacked a Ukrainian artillery app. The report concluded that Russia had used the hack to cause large losses to Ukrainian artillery units. The app (called ArtOS) was installed on tablet PCs and used for fire-control. CrowdStrike also found a hacked variation of POPR-D30 being distributed on Ukrainian military forums that utilized an X-Agent implant.
+The U.K.-based think tank International Institute for Strategic Studies said CrowdStrike’s report wrongly used its data and denied that hacking caused Ukraine’s artillery losses. The Ukrainian Ministry of Defense also rejected the CrowdStrike report, stating that actual artillery losses were much smaller than what was reported by CrowdStrike and were not associated with Russian hacking. Prior to this, CrowdStrike had published a report claiming that malware used in Ukraine and against the Democratic National Committee (DNC) appeared to be unique and identical, offering it as further evidence for a Russian origin of the DNC attack.
+Cybersecurity firm SecureWorks discovered a list of email addresses targeted by Fancy Bear in phishing attacks. The list included the email address of Yaroslav Sherstyuk, the developer of ArtOS. Additional Associated Press research supports CrowdStrike's conclusions about Fancy Bear. Radio Free Europe notes that the AP report "lends some credence to the original CrowdStrike report, showing that the app had, in fact, been targeted."
+
+2024 IT outages
+On 19 July 2024, CrowdStrike released a faulty configuration update for its Falcon Sensor software on Microsoft Windows systems. The update caused around 8.5 million computers to crash and fail to restart properly. The disruption affected organizations in many sectors, including airlines, healthcare providers, financial institutions, media companies, and government services in multiple countries.
+CrowdStrike identified the faulty configuration update as the cause of the incident and stated that it was not the result of a cyberattack. The company released guidance and tools to help customers restore affected systems. Chief executive George Kurtz and other senior leaders issued public apologies, saying the company was “deeply sorry” for the disruption and announcing planned process changes to reduce the risk of similar incidents in the future.
+The outage led to industry and policy discussions about the risks associated with widely used, centralized security software and the importance of improving operational resilience in global information technology infrastructure.
+Following the outage, CrowdStrike launched the "Falcon Flex" customer retention program, offering customers additional products and flexible subscriptions. By late 2025, Falcon Flex had accumulated over $3.2 billion in total deal value. CrowdStrike CEO George Kurtz stated that the company's customer renewal rate remained at 97%.
+
+Delta lawsuits
+Delta Air Lines and CrowdStrike filed lawsuits against each other following the July 2024 Falcon software update.
+On October 25, 2024, Delta filed a lawsuit against CrowdStrike in Georgia state court, seeking approximately $500–550 million in damages. The airline said the claim covered flight cancellations, lost revenue, and costs related to restoring its operations after the Falcon software update. A Georgia judge allowed Delta to proceed with key claims in its lawsuit, including allegations of gross negligence and computer trespass, while limiting certain fraud claims.
+On the same day that Delta filed its lawsuit, CrowdStrike filed a separate suit in the United States District Court for the Northern District of Georgia. The company sought a declaratory judgment stating that any liability arising from the July 2024 incident is limited by the terms of the parties’ service contract.
+CrowdStrike acknowledged that the flawed configuration update caused the global outage. The company stated that it identified the issue quickly and released a corrective update, with most major airline customers were operating at near-normal levels by the following day. Delta experienced longer disruptions than other major airlines following the outage. CrowdStrike argued that the extended impact on Delta was due to the airline’s own information technology architecture and operational decisions, including its reliance on Microsoft Windows systems and its approach to system recovery, rather than the software update itself.
+
+See also
+2024 Delta Air Lines disruption
+Chinese intelligence activity abroad
+Chinese espionage in the United States
+Operating systems
+Timeline of Russian interference in the 2016 United States elections
+Timeline of investigations into Donald Trump and Russia (January–June 2017)
+
+References
+External links
+Official website 
+
+Business data for CrowdStrike Holdings, Inc.:

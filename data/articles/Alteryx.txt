@@ -1,0 +1,26 @@
+# Alteryx
+
+Alteryx, Inc. is an American computer software company founded in 1997 by Dean Stoecker. It is based in Irvine, California and develops products using data science and analytics. It was acquired by private equity companies in December 2023.
+
+History
+SRC LLC, the predecessor to Alteryx, was founded in 1997 by Dean Stoecker, Olivia Duane Adams and Ned Harding. 
+In 2000, SRC LLC entered into a contract with the U.S. Census Bureau that resulted in a modified version of its Allocate software being included on CD-ROMs of Census Data sold by the Bureau.
+In 2006, the software product Alteryx was released, which was a unified spatial and non-spatial data environment for building analytical processes and applications. 
+In 2010, SRC LLC changed its name to that of its core product, Alteryx. 
+In 2011, Alteryx raised $6 million in venture funding from the Palo Alto investment arm of SAP AG, SAP Ventures. In 2013, Alteryx raised $12 million from SAP Ventures and Toba Capital. In 2014, the company raised $60 million in Round B funding from Insight Venture Partners, Sapphire Ventures (formerly SAP Ventures) and Toba Capital.
+In 2015, ICONIQ Capital led an $85 million investment in Alteryx, with Insight Venture Partners and Meritech Capital Partners also participating.
+On March 24, 2017, Alteryx went public in an IPO listed on the NYSE. At the time, Alteryx's core service was to assemble information from Experian and public sources like the U.S. Census Bureau to create their product which sold for $39,000 per license.
+In October, it was discovered that Alteryx was subject to a data breach of 248 fields of partially anonymized data records for approximately 120 million U.S. households. Also included was "consumer demographics, life event, direct response, property, and mortgage information for more than 235 million consumers" according to the company. Alteryx's hosting on Amazon Web Services had been unsecured (its sources had no breach).
+In October 2020, Alteryx announced Mark Anderson as CEO, with Stoecker becoming Executive Chairman of the Board of Directors.
+In December 2023, it was announced that two private equity firms, Clearlake Capital and Insight Partners, would acquire the company in a US$4.4 billion deal, intending to make it private. On March 19, 2024, the transaction was completed.
+
+Acquisitions
+In January 2017, Alteryx acquired Prague-based software company Semanta. Alteryx Connect is an outgrowth of the Semanta acquisition.
+In April 2019, Alteryx acquired ClearStory Data for $19.6 million in cash.
+In October 2019, Alteryx acquired Feature Labs, a machine learning startup known for developing Featuretools, an open source library for automated feature engineering with over 350,000 downloads at the time of acquisition. The acquisition added an engineering hub for Alteryx in Boston, Massachusetts.
+In October 2021, Alteryx acquired Lore IO, a no-code AI-enabled data modeling platform. That same month, Alteryx acquired Hyper Anna, a cloud platform for generating AI-driven automated insights from data.
+In January 2022, Alteryx acquired Trifacta for $400 million in cash, with the deal closing the following month. In March 2022, Alteryx announced its Analytics Cloud Platform, which it updated to integrate Designer Cloud powered by Trifacta.
+
+References
+External links
+Official website
